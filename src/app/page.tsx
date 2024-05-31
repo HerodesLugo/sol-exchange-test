@@ -3,9 +3,9 @@ import Landing from '@/src/components/Landing'
 import Main from '@/src/components/Landing/Main'
 import "@/src/assets/styles/landing.css"
 export const metadata = {
-  title: 'Fenix Finance',
+  title: 'SolExchange',
   description:
-    'Fenix is a decentralized exchange (DEX) that provides deep spot and perpetuals trading markets on Blast. Deposit liquidity to earn FNX emissions. Stake veFNX to receive 100% of platform rewards.',
+    '',
 }
 const HomePage = () => {
   return (
