@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 // /* eslint-disable max-len */
 // 'use client'
 // import React, { useEffect, useState, useRef } from 'react'
@@ -307,7 +308,7 @@ import { ScrollParallax } from 'react-just-parallax'
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-col items-center justify-center  overflow-hidden">
+    <div className="flex flex-col items-center justify-center">
       <Decorator />
       <h1 className="text-3xl font-normal text-white py-20">How it works</h1>
       <div className="grid lg:grid-cols-2 gap-4 relative z-50 max-md:w-full px-6">
@@ -385,21 +386,28 @@ const HowItWorks = () => {
             />
           </div>
         </ScrollParallax>
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full max-lg:flex-col-reverse">
           <Image
-            className="h-[38.25rem] w-[48.0625rem]"
+            className="max-h-[612px] w-[48.0625rem]"
             src={'/static/images/solexchange/HowItWorks/emissions.svg'}
             alt="background"
             height={612}
             width={769}
           />
-          <div className="h-[38.25rem] w-[48.0625rem] ">
+          <div className="lg:h-[38.25rem] w-[48.0625rem] max-lg:w-[37rem] max-xs:h-[14rem] max-sm:h-[18rem] max-md:h-[22rem] max-lg:h-[22rem]">
             <Image
-              className="w-[75rem] h-[75rem] absolute -top-40 z-10 "
+              className="w-[75rem] h-[75rem] absolute -top-40 z-10 max-lg:hidden "
               src={'/static/images/solexchange/HowItWorks/solPlanet.png'}
               alt="background"
               height={1912}
               width={1885}
+            />
+            <Image
+              className="w-[37rem] max-sm:w-[26rem] absolute max-xs:right-[-20px] max-sm:right-[-20px] max-md:right-[-20px] max-lg:!right-[-7rem] max-xs:bottom-[-20px] max-sm:bottom-[40px] max-md:bottom-[-180px] max-lg:bottom-[-60px] mix-blend-color -z-20 lg:hidden"
+              src={'/static/images/solexchange/HowItWorks/solPlanet-mobile.png'}
+              alt="background"
+              height={596}
+              width={596}
             />
           </div>
         </div>

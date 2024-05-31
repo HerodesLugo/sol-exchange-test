@@ -19,7 +19,7 @@ const Security = () => {
 
   return (
     <div className="container mx-auto 2xl:max-w-[1300px] w-full relative z-50 pb-40">
-      <div className="max-lg:flex-col items-start lg:flex lg:justify-center xl:justify-between gap-4">
+      <div className="max-lg:flex-col items-start lg:flex mx-auto lg:justify-center gap-4">
         <div className="flex-col items-start">
           <p className="w-full text-white text-xl font-normal py-4 max-lg:text-center">Validated by Industry Leaders</p>
           <div className="flex flex-wrap xl:flex-nowrap gap-4 lg:flex-row z-50">
@@ -31,7 +31,7 @@ const Security = () => {
                   className={`relative box-landing-solexchange`}
                 >
                   <div className="flex items-center justify-between  h-full">
-                    <Image src={item.image} alt={item.title} width={200} height={50} className={`mx-auto z-20 transition-all ${item.isHover ? 'opacity-100' : 'opacity-60'}`} />
+                    <Image src={item.image} alt={item.title} width={250} height={50} className={`mx-auto w-[260px] h-[120px] z-20 transition-all ${item.isHover ? 'opacity-100' : 'opacity-60'}`} />
                   </div>
                   <div className={`box-landing-solexchange-hover transition-all ${item.isHover ?  'opacity-100' : 'opacity-0'} absolute top-0 left-0 bottom-0 right-0 w-full h-full z-10`}></div>
                 </div>
@@ -57,9 +57,9 @@ const Security = () => {
                 <Image
                   src={'/static/images/landing/security/HatsFinance.svg'}
                   alt={''}
-                  width={200}
+                  width={250}
                   height={50}
-                  className={`mx-auto z-20 transition-all ${hover ? 'opacity-100' : 'opacity-60'}`}
+                  className={`mx-auto z-20 transition-all w-[260px] h-[120px] ${hover ? 'opacity-100' : 'opacity-60'}`}
                 />
               </div>
               <div className={`box-landing-solexchange-hover transition-all ${hover ?  'opacity-100' : 'opacity-0'} absolute top-0 left-0 bottom-0 right-0 w-full h-full z-10`}></div>

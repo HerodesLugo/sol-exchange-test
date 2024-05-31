@@ -67,8 +67,8 @@ body {
   lg:max-w-[calc(100%-150px)]
   xl:max-w-[calc(100%-150px)] 
   2xl:max-w-[1600px]
-  px-2
- xl:px-[40px];
+  /* px-2 */
+  xl:px-[40px];
 }
 
 .svgcontainer {
