@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  @apply
+  2xl:text-[14px] 
+  xl:text-[12.8px]  
+  lg:text-[10px]
+}
